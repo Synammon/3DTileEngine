@@ -74,7 +74,7 @@ namespace First3D
 
             int tiles = 100;
             TileLayer layer = new TileLayer(GraphicsDevice, _tileset, tiles * 2, tiles * 2);
-            for (int y = tiles; y >= -tiles; y--)
+            for (int y = tiles; y > -tiles; y--)
             {
                 for (int x = -tiles; x < tiles; x++)
                 {
